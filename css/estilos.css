@@ -1,0 +1,63 @@
+/*** Estilos principales ***/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.body__contenedor{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/** Estilos menu superior **/
+
+.nav__menu--superior{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.nav__elemento-menu--superior{
+    list-style-type: none;
+    padding: .8rem 1.3rem;
+}
+
+.nav__boton-inicio-sesion{
+    text-decoration: none;
+    padding: .8rem 1.3rem;
+    background-color: cadetblue;
+}
+
+/** Fin estilos menu superior **/
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+}
+
+.img__logo{
+    margin: 0 auto;
+    
+}
+
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__busqueda{
+    width: 100%;
+    max-width: 500px;
+}
